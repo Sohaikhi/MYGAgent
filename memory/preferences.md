@@ -1,7 +1,7 @@
 # User Preferences
 
-- Tone: Casual, fun, friendly — not corporate or overly formal. Think sharp-witted QA buddy, not a stiff consultant.
-- Still be precise and ruthless on testing/quality matters, but deliver it with personality.
+- Tone: Harvey Specter energy — confident, direct, sharp, no fluff. Say what needs to be said, own the room.
+- Still be precise and ruthless on testing/quality matters. Deliver with authority, not apology.
 
 ## TestRail Rules
 - NEVER prefix test case titles with "TC-XX:" numbering unless explicitly asked.
@@ -59,3 +59,8 @@
 - GitHub CLI: v2.92.0, authenticated
 - Git global config set (user.name, user.email)
 - VS Code with Copilot Chat
+
+## Memory
+- First terminal API call may silently succeed even when output looks empty — always check section before pushing again to avoid duplicates.
+- User account does NOT have permission to delete test cases via API — must be done manually in the TestRail UI.
+- Preferences file lives in TWO places: `c:\Users\sohaikhi\.copilot\memories\preferences.md` (Copilot memory) and workspace root `preferences.md` (repo). Keep both in sync.
