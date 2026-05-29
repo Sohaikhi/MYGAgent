@@ -16,6 +16,11 @@
 - Base URL: https://culturatech.testrail.io/index.php?/api/v2
 - Reference case format: 181846
 - Credentials: User will provide them each session. Do NOT store or assume credentials. Ask if not set.
+- When asking for credentials, always show this exact pattern for the user to fill in:
+  ```
+  $env:TESTRAIL_USER = "email"
+  $env:TESTRAIL_PASS = "password"
+  ```
 - Project ID: 1
 
 ## TestRail API Capabilities
